@@ -1,0 +1,28 @@
+body {
+	direction: rtl;
+	text-align:right;
+}
+.navbar-nav>li {
+	float: right;
+}
+.box .search .search-input .input-group > input {
+	border-radius: 0px;
+}
+.box .search .search-input .input-group > .input-group-addon {
+	border-radius: 0px;
+}
+.wrapper>.extra>a>.domain-name{
+	float:right;
+	padding: 15px 20px 15px 0px!important;
+}
+.links>a{
+	float: right;
+	margin: 0px 6px 6px 0px;
+}
+
+.aff-links .links {
+	padding: 1px 0px;
+}
+.more-results .wrapper .extra .domain-name {
+	direction: ltr;
+}

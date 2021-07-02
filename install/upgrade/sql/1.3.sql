@@ -1,0 +1,67 @@
+DROP TABLE IF EXISTS `tlds`;
+
+CREATE TABLE IF NOT EXISTS `tlds` (
+  `id` tinyint(2) NOT NULL AUTO_INCREMENT,
+  `display_order` tinyint(2) NOT NULL,
+  `tld` text NOT NULL,
+  `status` tinyint(1) NOT NULL,
+  `server` varchar(100) NOT NULL,
+  `response` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=51 ;
+
+TRUNCATE TABLE `tlds`;
+
+INSERT INTO `tlds` (`id`, `display_order`, `tld`, `status`, `server`, `response`) VALUES
+(1, 1, 'com', 1, 'whois.crsnic.net', 'No match for'),
+(2, 2, 'net', 1, 'whois.crsnic.net', 'No match for'),
+(3, 4, 'org', 1, 'whois.pir.org', 'NOT FOUND'),
+(4, 5, 'biz', 1, 'whois.nic.biz', 'Not found'),
+(5, 3, 'info', 1, 'whois.afilias.net', 'NOT FOUND'),
+(6, 7, 'name', 1, 'whois.nic.name', 'No match'),
+(7, 8, 'co', 1, 'whois.nic.co', 'Not found'),
+(8, 6, 'tv', 1, 'whois.nic.tv', 'No match for'),
+(9, 10, 'in', 1, 'whois.inregistry.in', 'NOT FOUND'),
+(10, 9, 'no', 1, 'whois.norid.no', 'No match'),
+(11, 11, 'us', 1, 'whois.nic.us', 'Not found'),
+(12, 13, 'me', 1, 'whois.meregistry.net', 'NOT FOUND'),
+(13, 12, 'am', 1, 'whois.nic.am', 'No match'),
+(14, 14, 'cc', 1, 'whois.nic.cc', 'No match'),
+(15, 15, 'uk', 1, 'whois.nic.uk', 'No match for'),
+(16, 16, 'ag', 1, 'whois.nic.ag', 'NOT FOUND'),
+(17, 17, 'ru', 1, 'whois.ripn.net', 'No entries found'),
+(18, 18, 'eu', 1, 'whois.eu', 'Status: AVAILABLE'),
+(19, 19, 'is', 1, 'whois.isnic.is', 'No entries found'),
+(20, 20, 'asia', 1, 'whois.nic.asia', 'NOT FOUND'),
+(21, 21, 'ir', 1, 'whois.nic.ir', 'no entries found'),
+(22, 22, 'cz', 1, 'whois.nic.cz', 'No entries found'),
+(23, 23, 'de', 1, 'whois.denic.de', 'Status: free'),
+(24, 24, 'ac', 1, 'whois.nic.ac', 'Available'),
+(25, 25, 'ca', 1, 'whois.cira.ca', 'Domain status: available'),
+(26, 26, 'ro', 1, 'whois.rotld.ro', 'No entries found'),
+(27, 27, 'io', 1, 'whois.nic.io', 'is available'),
+(28, 28, 'jp', 1, 'whois.jprs.jp', 'No match!!'),
+(29, 29, 'ie', 1, 'whois.domainregistry.ie', '% Not Registered'),
+(30, 30, 'ch', 1, 'whois.nic.ch', 'not have an entry'),
+(31, 31, 'it', 1, 'whois.nic.it', 'AVAILABLE'),
+(32, 32, 'se', 1, 'whois.iis.se', 'not found'),
+(33, 33, 'es', 1, 'http://whois.virtualname.es/whois.php?domain=', 'LIBRE'),
+(34, 34, 'mobi', 1, 'whois.dotmobiregistry.net', 'NOT FOUND'),
+(35, 35, 'im', 1, 'whois.nic.im', 'was not found'),
+(36, 36, 'be', 1, 'whois.dns.be', 'Status: AVAILABLE'),
+(37, 38, 'aero', 1, 'whois.aero', 'NOT FOUND'),
+(38, 39, 'cn', 1, 'whois.cnnic.net.cn', 'no matching record'),
+(39, 40, 'fr', 1, 'whois.nic.fr', 'No entries found'),
+(40, 37, 'fi', 1, 'whois.ficora.fi', 'Domain not found'),
+(41, 41, 'dk', 1, 'whois.dk-hostmaster.dk', 'No entries found'),
+(42, 42, 'nu', 1, 'whois.nic.nu', 'not found'),
+(43, 43, 'hu', 1, 'whois.nic.hu', 'No match'),
+(44, 44, 'tw', 1, 'whois.twnic.net.tw', 'No Found'),
+(45, 45, 'pt', 1, 'whois.dns.pt', 'no match'),
+(46, 46, 'cl', 1, 'whois.nic.cl', 'no existe'),
+(47, 47, 'pro', 1, 'whois.registrypro.pro', 'NOT FOUND'),
+(48, 48, 'my', 1, 'whois.mynic.net.my', 'does not exist in database'),
+(49, 49, 'lu', 1, 'whois.dns.lu', 'No such domain'),
+(50, 50, 'md', 1, 'whois.nic.md', 'No match for');
+
+ALTER TABLE `suggessted_limit` ADD `instantLimit` INT(11) NOT NULL ;

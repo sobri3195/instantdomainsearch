@@ -1,0 +1,1 @@
+ALTER TABLE `settings` ADD `whoisStatus` TINYINT(1) NOT NULL AFTER `p_loader`;

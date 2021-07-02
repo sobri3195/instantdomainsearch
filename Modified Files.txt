@@ -1,0 +1,118 @@
+version 1.4
+--
+
+--Modified : results.php
+--Modified : style/javascript.php
+--Modified : admin/stats.php
+--Modified : includes/footer.php
+--Modified : includes/functions.php
+--Modified : includes/session.php
+--Modified : language Directory
+--Modified : install/sql/db.sql
+--Modified : admin/whois.php
+--Modified : admin/editwhois.php
+--Modified : admin/settings.php
+--Modified : admin/edit_language.php
+--Modified : admin/add_language.php
+
+
+
+Version 1.3
+--
+
+--Modified : index.php
+--Modified : results.php
+--Modified : suggest.php
+--Modified : includes/count_stats.php
+--Modified : includes/functions.php
+--Modified : includes/header_under.php
+--Modified : includes/header.php
+--Modified : includes/list_tld.php
+--Modified : includes/session.php
+--Modified : style/js/javascript.php
+--Modified : static/css/style.css
+--Modified : admin/action.php
+--Modified : admin/affiliates_setting.php
+--ADD : admin/editwhois.php
+--ADD : admin/whois.php
+--DELETE : license.php
+--Modified : admin/index.php
+--Modified : admin/reset.php
+--Modified : admin/license.api.php
+--Modified : admin/logout.php
+--Modified : admin/tld_sorting.php
+--Modified : admin/tlds.php
+--Modified : admin/update_affiliates.php
+--Modified : admin/update_prices.php
+--Modified : admin/includes/side_navbar.php
+--Modified : admin/includes/top_navbar.php
+--Modified : admin/includes/header.php
+--Modified : admin/includes/header_under.php
+--Modified : admin/includes/footer.php
+--Modified : install Directory
+
+
+
+Version 1.2
+--
+
+--Added    : cache directory in includes directory
+--Modified : index.php
+--Modified : 404.php
+--Modified : results.php
+--Modified : suggest.php
+--Modified : contact.php
+--Modified : page.php
+--Modified : redirect_page.php
+--Modified : redirect_contact.php
+--Modified : change_language.php
+--Modified : includes/list_tld.php file
+--Modified : includes/footer.php file
+--Modified : includes/header_under.php file
+--Modified : libs/whois.servers.json file
+--Modified : style/js/javascript.php file
+--Modified : includes/session.php file
+--Modified : includes/count_stats.php file
+--Modified : includes/functions.php file
+--Deleted  : admin/edit_page_language.php
+--Deleted  : admin/add_page_language.php
+--Deleted  : admin/page_language.php
+--Modified : admin/includes/side_navbar.php
+--Modified : admin/includes/header.php
+--Modified : admin/includes/footer.php
+--Modified : admin/pages.php
+--Modified : admin/add_page.php
+--Modified : admin/edit_page.phpe
+--Modified : admin/edit_language.php
+--Modified : admin/language_setting.php
+--Modified : admin/tlds.php
+--Modified : admin/domains.php
+--Modified : admin/update_affiliates.php
+--Modified : admin/affiliates_setting.php file
+--Modified : admin/update_prices.php file 
+--Added    :  admin/cache_settings.php
+--Replaced : filename admin/website.php  with admin/settings.php
+--Modified : admin/settings.php
+
+
+
+Version 1.1
+
+--Modified : .htacess
+--Modified : admin/tlds.php
+--Modified : admin/domains.php
+--Modified : admin/update_affiliates.php
+--Modified : admin/affiliates_setting.php file
+--Modified : admin/update_prices.php file 
+--Modified : libs/whois.servers.json file
+--Modified : includes/list_tld.php file
+--Modified : style/js/javascript.php file
+--Modified : includes/session.php.php file
+--Modified : change_language.php
+--Modified : includes/functions.php file
+--Modified : admin/edit_language.php 
+--Modified : admin/add_language.php
+
+Version 1.0
+
+--Initial Release
